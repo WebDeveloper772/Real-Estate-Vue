@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.3dfba352e7bf4e47bbafa25d5d523a9c.js"
+  "/precache-manifest.540fef022a61af9bc5be6e1c00577752.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "master-real-estate"});
@@ -38,4 +38,4 @@ self.__precacheManifest = [
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerRoute("https://api.zoopla.co.uk/api/v1/property_listings.json?&page_number=2$&area=london&page_size=100&summarised=true&api_key=nnc2mfhmmbngxyvgpmqy86nz", new workbox.strategies.NetworkFirst({ "networkTimeoutSeconds":5, plugins: [] }), 'GET');
+workbox.routing.registerRoute("http://api.zoopla.co.uk/api/v1/property_listings.json?&page_number=2$&area=london&page_size=100&summarised=true&api_key=nnc2mfhmmbngxyvgpmqy86nz", new workbox.strategies.NetworkFirst({ "networkTimeoutSeconds":5, plugins: [] }), 'GET');

@@ -6,4 +6,4 @@
 
 ## Notes
 - GitHub Pages deployment page <ins>will not show the listing results</ins>, due to the zoopla API server being configured with a http protocol. 
-- Run the project locally to see all the results
+ Run the project locally to see all the results

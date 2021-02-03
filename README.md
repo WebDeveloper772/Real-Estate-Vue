@@ -5,5 +5,5 @@
 3. See all house listings in the UK!
 
 ## Notes
-- GitHub Pages deployment page will not show the listing results, due to the zoopla API server being configured with a http protocol. 
+- GitHub Pages deployment page <ins>will not show the listing results</ins>, due to the zoopla API server being configured with a http protocol. 
 - Run the project locally to see all the results

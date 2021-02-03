@@ -38,4 +38,4 @@ self.__precacheManifest = [
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerRoute("http://api.zoopla.co.uk/api/v1/property_listings.json?&page_number=2$&area=london&page_size=100&summarised=true&api_key=nnc2mfhmmbngxyvgpmqy86nz", new workbox.strategies.NetworkFirst({ "networkTimeoutSeconds":5, plugins: [] }), 'GET');
+workbox.routing.registerRoute("https://api.zoopla.co.uk/api/v1/property_listings.json?&page_number=2$&area=london&page_size=100&summarised=true&api_key=nnc2mfhmmbngxyvgpmqy86nz", new workbox.strategies.NetworkFirst({ "networkTimeoutSeconds":5, plugins: [] }), 'GET');

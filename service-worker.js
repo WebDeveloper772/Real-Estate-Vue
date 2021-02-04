@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.540fef022a61af9bc5be6e1c00577752.js"
+  "/precache-manifest.8156f416c2c9dd5423376e008b729e64.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "master-real-estate"});
